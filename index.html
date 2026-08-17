@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hasibur Rahman is a PHP and Laravel Developer focused on clean, scalable web applications with strong performance and maintainable architecture."
+    />
+    <meta property="og:title" content="Hasibur Rahman | PHP & Laravel Developer" />
+    <meta
+      property="og:description"
+      content="Single-page portfolio highlighting PHP, Laravel, full stack skills, and selected projects."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/portfolio-placeholder" />
+    <meta property="og:image" content="assets/images/hasibur.png" />
+    <title>Hasibur Rahman | PHP & Laravel Developer</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/hasib.png" />
+    <script>
+      (function () {
+        const storedTheme = localStorage.getItem("portfolio-theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = storedTheme || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="#home">Hasibur</a>
+        <div class="nav-controls">
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="header-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+            <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
+            <span class="theme-toggle-text">Dark</span>
+          </button>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Open menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home">
+        <div class="container hero-content">
+          <p class="eyebrow">PHP & LARAVEL DEVELOPER</p>
+          <h1>Hi, I'm Hasibur Rahman<br /><span>PHP &amp; Laravel Developer</span></h1>
+          <p class="hero-intro">I build clean, scalable, and maintainable web applications using PHP and Laravel, with a strong focus on backend development, REST APIs, database design, and practical user experiences.</p>
+          <div class="hero-highlights" aria-label="Core strengths">
+            <span>Laravel Development</span>
+            <span>REST API Development</span>
+            <span>MySQL & Database Design</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Projects</a>
+            <a class="button button-secondary" href="#contact">Let's Work Together</a>
+          </div>
+          <div class="social-links" aria-label="Hero social profiles">
+            <a href="https://github.com/net-hasibur" target="_blank" rel="noopener noreferrer">
+              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.48 2 2 6.58 2 12.23c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .08 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.04A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.32 2.75-1.04 2.75-1.04.55 1.41.2 2.45.1 2.71.64.71 1.03 1.62 1.03 2.74 0 3.94-2.34 4.81-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/hasibur-net/" target="_blank" rel="noopener noreferrer">
+              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9.5 14H7V10h2.5v7zM8.25 8.9c-.8 0-1.45-.66-1.45-1.47S7.45 6 8.25 6s1.45.66 1.45 1.47S9.05 8.9 8.25 8.9zM17 17h-2.5v-3.6c0-.86-.02-1.96-1.2-1.96-1.2 0-1.38.94-1.38 1.9V17H9.4V10h2.4v.96h.03c.33-.64 1.15-1.3 2.37-1.3 2.54 0 3.01 1.69 3.01 3.88V17z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="about">
+        <div class="container">
+          <div class="about-card">
+            <div class="about-layout">
+              <div class="about-image-wrap">
+                <img
+                  class="about-image"
+                  src="assets/images/hasib.jpg"
+                  alt="Profile photo of Hasibur Rahman"
+                  width="420"
+                  height="420"
+                />
+              </div>
+              <div class="about-content">
+                <h2>Building Clean & Scalable Web Applications with Laravel</h2>
+                <p class="section-intro">
+                  I'm Hasibur Rahman, a PHP & Laravel Developer focused on building clean, maintainable, and scalable web applications. I specialize in backend development, REST APIs, database design, authentication, and seamless frontend integration.
+                </p>
+                <p class="section-intro">
+                  I enjoy turning real-world requirements into reliable software with clean architecture, practical solutions, and attention to performance and maintainability.
+                </p>
+                <div class="about-highlights" aria-label="About highlights">
+                  <div class="about-highlight">
+                    <strong>Laravel</strong>
+                    <span>Framework</span>
+                  </div>
+                  <div class="about-highlight">
+                    <strong>REST API</strong>
+                    <span>Integration </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="skills">
+        <div class="container">
+          <h2>Technical Skills</h2>
+          <p class="section-intro">Focused technical stack for delivering practical PHP/Laravel web applications.</p>
+          <div class="skills-grid">
+            <article class="skill-group">
+              <h3>Backend</h3>
+              <div class="skill-badges">
+                <span>PHP</span><span>PHP OOP</span><span>Laravel</span><span>REST API Design</span><span>MVC Architecture</span>
+              </div>
+            </article>
+            <article class="skill-group">
+              <h3>Frontend</h3>
+              <div class="skill-badges">
+                <span>JavaScript</span><span>Vue.js</span><span>Frontend Integration</span><span>HTML5</span><span>CSS3</span>
+              </div>
+            </article>
+            <article class="skill-group">
+              <h3>Database</h3>
+              <div class="skill-badges">
+                <span>MySQL</span><span>PostgreSQL</span><span>Eloquent ORM</span><span>Database Normalization</span>
+              </div>
+            </article>
+            <article class="skill-group">
+              <h3>Tools &amp; Technologies</h3>
+              <div class="skill-badges">
+                <span>Git</span><span>GitHub</span><span>Postman</span><span>Composer</span><span>Linux (Ubuntu)</span><span>Docker (Basic)</span>
+              </div>
+            </article>
+            <article class="skill-group">
+              <h3>Development Practices</h3>
+              <div class="skill-badges">
+                <span>API-first Architecture</span><span>Request Validation</span><span>Error Handling</span><span>Role-based Access Control</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-intro">Selected Laravel and full-stack projects built with practical architecture and recruiter-ready quality.</p>
+          <div class="projects-grid">
+            <article class="project-card">
+              <img
+                class="project-image"
+                src="assets/images/projectimage.png"
+                alt="Preview placeholder for Task Management Application project"
+                width="640"
+                height="360"
+              />
+              <h3>Task Management Application</h3>
+              <p>
+                A task workflow platform with secure access and a dashboard-centered experience for managing day-to-day productivity.
+              </p>
+              <div class="project-stack">
+                <span>Vue.js 3</span><span>Laravel REST API</span><span>Axios</span>
+              </div>
+              <div class="card-actions">
+                <a class="button button-secondary" href="  " target="_blank" rel="noopener noreferrer"
+                  >GitHub</a
+                >
+                <a class="button button-primary" href="#" target="_blank" rel="noopener noreferrer"
+                  >Live Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                class="project-image"
+                src="assets/images/ims.jpg"
+                alt="Preview placeholder for Inventory Management System project"
+                width="640"
+                height="360"
+              />
+              <h3>Inventory Management System (IMS)</h3>
+              <p>
+                A complete inventory solution for product, stock, and invoice workflows with secure authentication and authorization.
+              </p>
+              <div class="project-stack">
+                <span>Laravel 12</span><span>MySQL</span><span>Blade</span>
+              </div>
+              <div class="card-actions">
+                <a class="button button-secondary" href="" target="_blank" rel="noopener noreferrer"
+                  >GitHub</a
+                >
+                <a class="button button-primary" href="" target="_blank" rel="noopener noreferrer"
+                  >Live Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card project-card-featured">
+              <img
+                class="project-image"
+                src="assets/images/shopese.jpeg"
+                alt="Preview placeholder for ShopEase e-commerce project"
+                width="640"
+                height="360"
+              />
+
+              <h3>ShopEase — E-commerce Web Application</h3>
+              <p>
+                A modern e-commerce experience with catalog browsing, cart and checkout flows, and secure payment integration.
+              </p>
+              <div class="project-stack">
+                <span>Laravel</span><span>Vue.js</span><span>Inertia.js</span>
+              </div>
+              <div class="card-actions">
+                <a class="button button-secondary" href="" target="_blank" rel="noopener noreferrer"
+                  >GitHub</a
+                >
+                <a class="button button-primary" href="" target="_blank" rel="noopener noreferrer"
+                  >Live Demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="contact">
+        <div class="container">
+          <h2>Let's Work Together</h2>
+          <p class="section-intro">
+            Have a project or idea? Let’s connect and build something great together. ⭐
+          </p>
+          <div class="contact-grid">
+            <article class="contact-card">
+              <h3>Contact Information</h3>
+              <div class="contact-links">
+                <a class="contact-link" href="mailto:rahmanhasibur.ds@gmail.com"><strong>Email</strong><span>rahmanhasibur.ds@gmail.com</span></a>
+                <a class="contact-link" href="tel:+8801560016064"><strong>Phone</strong><span>01560016064</span></a>
+                <a class="contact-link" href="https://github.com/net-hasibur" target="_blank" rel="noopener noreferrer"><strong><svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .08 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.04A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.32 2.75-1.04 2.75-1.04.55 1.41.2 2.45.1 2.71.64.71 1.03 1.62 1.03 2.74 0 3.94-2.34 4.81-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"/></svg>GitHub</strong><span>github.com/net-hasibur</span></a>
+                <a class="contact-link" href="https://www.linkedin.com/in/hasibur-net/" target="_blank" rel="noopener noreferrer"><strong><svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9.5 14H7V10h2.5v7zM8.25 8.9c-.8 0-1.45-.66-1.45-1.47S7.45 6 8.25 6s1.45.66 1.45 1.47S9.05 8.9 8.25 8.9zM17 17h-2.5v-3.6c0-.86-.02-1.96-1.2-1.96-1.2 0-1.38.94-1.38 1.9V17H9.4V10h2.4v.96h.03c.33-.64 1.15-1.3 2.37-1.3 2.54 0 3.01 1.69 3.01 3.88V17z"/></svg>LinkedIn</strong><span>linkedin.com/in/hasibur-net</span></a>
+              </div>
+            </article>
+
+            <article class="contact-card">
+              <h3>Quick Message</h3>
+              <form id="contact-form" novalidate>
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" required />
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" required />
+                </div>
+                <div class="form-field">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Send Message</button>
+                <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-grid">
+          <div>
+            <p class="footer-title">Hasibur Rahman</p>
+            <p class="footer-role">PHP &amp; Laravel Developer</p>
+            <p class="footer-contact"><a href="mailto:rahmanhasibur.ds@gmail.com">rahmanhasibur.ds@gmail.com</a></p>
+          </div>
+          <div>
+            <p class="footer-heading">Quick Links</p>
+            <div class="footer-links">
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <div>
+            <p class="footer-heading">Connect</p>
+            <div class="footer-links" aria-label="Footer social links">
+              <a href="https://github.com/net-hasibur" target="_blank" rel="noopener noreferrer">
+                <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2C6.48 2 2 6.58 2 12.23c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .08 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.04A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.32 2.75-1.04 2.75-1.04.55 1.41.2 2.45.1 2.71.64.71 1.03 1.62 1.03 2.74 0 3.94-2.34 4.81-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2z"
+                  />
+                </svg>
+                GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/hasibur-net/" target="_blank" rel="noopener noreferrer">
+                <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9.5 14H7V10h2.5v7zM8.25 8.9c-.8 0-1.45-.66-1.45-1.47S7.45 6 8.25 6s1.45.66 1.45 1.47S9.05 8.9 8.25 8.9zM17 17h-2.5v-3.6c0-.86-.02-1.96-1.2-1.96-1.2 0-1.38.94-1.38 1.9V17H9.4V10h2.4v.96h.03c.33-.64 1.15-1.3 2.37-1.3 2.54 0 3.01 1.69 3.01 3.88V17z"
+                  />
+                </svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <a class="back-to-top" href="#home">Back to Top</a>
+          <p class="footer-copy">&copy; <span id="year"></span> Hasibur Rahman. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
